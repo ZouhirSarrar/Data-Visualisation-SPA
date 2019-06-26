@@ -1,0 +1,22 @@
+<!-- index.component.html -->
+<div *ngIf="chart">
+        <canvas id="canvas">{{ chart }}</canvas>
+      </div>
+<table class="table table-hover">
+  <thead>
+  <tr>
+      <td><b>latest_quarter</b></td>
+      <td><b>country</b></td>
+      <td><b>annual_percent_change</b></td>
+  </tr>
+  </thead>
+
+  <tbody>
+      <tr *ngFor="let adunit of adunits">
+          <td>{{ adunit.latest_quarter}}</td>
+          <td>{{ adunit.country }}</td>
+          <td>{{ adunit.annual_percent_change }}</td>
+      </tr>
+  </tbody>
+</table>
+

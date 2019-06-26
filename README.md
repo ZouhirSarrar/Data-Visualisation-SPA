@@ -1,27 +1,49 @@
-# Ng6
+### Data Visualization, SPA (Angular 6)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.9.
+### Description
 
-## Development server
+My application is a simple single page application SPA that lets you view your data with charts 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+### Tech
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The app uses a number of open source projects to work:
+* [MongoDB](https://www.mongodb.com) - Free and open-source cross-platform document-oriented database
+* [Mongoose](http://mongoosejs.com/index.html) - Elegant MongoDB object modeling for NodeJS
+* [NodeJS](https://nodejs.org/en/) - Evented I/O for the backend
+* [ExpressJS](https://expressjs.com) - Fast, unopinionated, minimalist web framework for NodeJS
+* [ChartJS](https://www.chartjs.org) - Implement charts 
+* [Angular6](https://angular.io) - Platform that makes it easy to build applications with the web
+* [BootStrap](https://https://getbootstrap.com) - Framework for developing responsive, mobile first projects on the web
 
-## Build
+### Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+npm install -g @angular6/cli
 
-## Running unit tests
+npm install bootstrap --save
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+npm install bootstrap --save
 
-## Running end-to-end tests
+npm install ng2-slim-loading-bar --save
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+npm install --save express body-parser cors mongoose
 
-## Further help
+npm install nodemon --save-dev
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+npm install chart.js --save
+
+
+### Servers
+
+we have 3 servers to launch
+
+Start the MongoDB Servers       $mangod
+Start Node.js server            $nodemon server     
+Start the Angular dev server    $ng server –open
+
+
+
+### Authors
+
+* [Sarrar Zouhir](https://github.com/ZouhirSarrar) 
+

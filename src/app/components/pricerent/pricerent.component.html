@@ -1,0 +1,21 @@
+<div *ngIf="chart">
+    <canvas id="canvas">{{ chart }}</canvas>
+  </div>
+<table class="table table-hover">
+    <thead>
+    <tr>
+        <td><b>Country</b></td>
+        <td><b>price_to_rent_ratio_index_2010_100</b></td>
+        <td><b>RR _100</b></td>
+
+    </tr>
+    </thead>
+  
+    <tbody>
+        <tr *ngFor="let adunit of adunits">
+            <td>{{ adunit.country_code_RR }}</td>
+            <td>{{ adunit.price_to_rent_ratio_index_2010_100 }}</td>
+            <td>{{ adunit.latest_quarter_RR }}</td>
+        </tr>
+    </tbody>
+  </table>
