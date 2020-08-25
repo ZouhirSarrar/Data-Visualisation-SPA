@@ -27,7 +27,7 @@
     "core-js": "^2.5.4",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "highcharts": "^7.1.2",
+    "highcharts": "^7.2.2",
     "highcharts-angular": "^2.4.0",
     "highcharts-export-server": "^2.0.24",
     "mongoose": "^5.7.5",
